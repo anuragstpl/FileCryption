@@ -1,0 +1,17 @@
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.vbprojResolveAssemblyReference.cache
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.Resources.resources
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.vbproj.GenerateResource.Cache
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\ClassLibrary1\bin\Debug\ClassLibrary1.xml
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.xml
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+E:\Student Jobs\VB.Net\Filecryption-20171005T052330Z-001\Filecryption\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\Student Jobs\VB.Net\Filecryption-20171005T052330Z-001\Filecryption\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\Student Jobs\VB.Net\Filecryption-20171005T052330Z-001\Filecryption\ClassLibrary1\bin\Debug\ClassLibrary1.xml
+E:\Student Jobs\VB.Net\Filecryption-20171005T052330Z-001\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.Resources.resources
+E:\Student Jobs\VB.Net\Filecryption-20171005T052330Z-001\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.vbproj.GenerateResource.Cache
+E:\Student Jobs\VB.Net\Filecryption-20171005T052330Z-001\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\Student Jobs\VB.Net\Filecryption-20171005T052330Z-001\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.xml
+E:\Student Jobs\VB.Net\Filecryption-20171005T052330Z-001\Filecryption\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

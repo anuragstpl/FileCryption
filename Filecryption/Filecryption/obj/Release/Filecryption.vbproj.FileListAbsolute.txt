@@ -1,0 +1,5 @@
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\Filecryption\obj\Release\Filecryption.Form3.resources
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\Filecryption\obj\Release\Filecryption.Form1.resources
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\Filecryption\obj\Release\Filecryption.Resources.resources
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\Filecryption\obj\Release\Filecryption.SignUp.resources
+C:\Users\mizah_000\Documents\Visual Studio 2015\Projects\Filecryption\Filecryption\obj\Release\Filecryption.vbproj.GenerateResource.Cache

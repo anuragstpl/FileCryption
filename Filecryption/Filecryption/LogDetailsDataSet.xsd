@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LogDetailsDataSet" targetNamespace="http://tempuri.org/LogDetailsDataSet.xsd" xmlns:mstns="http://tempuri.org/LogDetailsDataSet.xsd" xmlns="http://tempuri.org/LogDetailsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="LogDetailsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="LogDetailsConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Filecryption.My.MySettings.GlobalReference.Default.LogDetailsConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EncDetailsTableAdapter" GeneratorDataComponentClassName="EncDetailsTableAdapter" Name="EncDetails" UserDataComponentName="EncDetailsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="LogDetailsConnectionString (MySettings)" DbObjectName="LogDetails.dbo.EncDetails" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT fileEncName, DestinatedEncFile FROM dbo.EncDetails</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="fileEncName" DataSetColumn="fileEncName" />
+              <Mapping SourceColumn="DestinatedEncFile" DataSetColumn="DestinatedEncFile" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LogDetailsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="LogDetailsDataSet" msprop:Generator_UserDSName="LogDetailsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EncDetails" msprop:Generator_TableClassName="EncDetailsDataTable" msprop:Generator_TableVarName="tableEncDetails" msprop:Generator_TablePropName="EncDetails" msprop:Generator_RowDeletingName="EncDetailsRowDeleting" msprop:Generator_RowChangingName="EncDetailsRowChanging" msprop:Generator_RowEvHandlerName="EncDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="EncDetailsRowDeleted" msprop:Generator_UserTableName="EncDetails" msprop:Generator_RowChangedName="EncDetailsRowChanged" msprop:Generator_RowEvArgName="EncDetailsRowChangeEvent" msprop:Generator_RowClassName="EncDetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fileEncName" msprop:Generator_ColumnVarNameInTable="columnfileEncName" msprop:Generator_ColumnPropNameInRow="fileEncName" msprop:Generator_ColumnPropNameInTable="fileEncNameColumn" msprop:Generator_UserColumnName="fileEncName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DestinatedEncFile" msprop:Generator_ColumnVarNameInTable="columnDestinatedEncFile" msprop:Generator_ColumnPropNameInRow="DestinatedEncFile" msprop:Generator_ColumnPropNameInTable="DestinatedEncFileColumn" msprop:Generator_UserColumnName="DestinatedEncFile">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
